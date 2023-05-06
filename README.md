@@ -3,6 +3,9 @@
 - https://developer.android.com/courses/android-basics-kotlin/course?hl=fr
 
 ## Module 1 : Principes de base du Kotlin
+
+https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
+
     - Présentation du Kotlin
     - Créer votre première application
     - Créer une mise en page de base
@@ -58,3 +61,7 @@
 - Utiliser Room pour la persistance des données
 ## Module 6 : WorkManager
 - Planifier des tâches avec WorkManager
+
+
+## Références 
+- [Android Fundamentals in Kotlin Solution Apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps)
