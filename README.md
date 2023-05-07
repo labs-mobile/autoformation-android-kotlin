@@ -29,6 +29,9 @@ https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
       - Projet : application Dogglers
 
 ## Module 3 : Navigation
+
+https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
+
   - Naviguer entre les écrans
     - Activités et intents
     - Étapes du cycle de vie d'une activité
@@ -65,3 +68,4 @@ https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
 
 ## Références 
 - [Android Fundamentals in Kotlin Solution Apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps)
+- [Android Architecture Components samples](https://github.com/android/architecture-components-samples)
