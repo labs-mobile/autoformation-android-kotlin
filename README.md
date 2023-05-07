@@ -2,16 +2,29 @@
 
 - https://developer.android.com/courses/android-basics-kotlin/course?hl=fr
 
+## Travail à faire 
+
+- [Suivez l'autoformation](https://developer.android.com/courses/android-basics-kotlin/course?hl=fr)
+- Réalisez le lab de validation de chaque module
+- [Réalisation de prototype](https://github.com/labs-mobile/prototype-todolist)
+
 ## Module 1 : Principes de base du Kotlin
 
-https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
+https://developer.android.com/courses/android-basics-kotlin/unit-1?hl=fr
 
     - Présentation du Kotlin
     - Créer votre première application
     - Créer une mise en page de base
     - Ajouter un bouton à une application
 
+pour valider ce module veuillez réaliser le lab suivant :
+- [lab-kotlin](https://github.com/labs-mobile/lab-kotlin)
+
 ## Module 2 : Mises en page 
+
+https://developer.android.com/courses/android-basics-kotlin/unit-2?hl=fr
+
+
     - Recevoir des entrées utilisateur dans une application : partie 1
       - Classes et héritage en Kotlin
       - Créer des mises en page XML pour Android
@@ -27,6 +40,9 @@ https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
       - Afficher une liste d'images à l'aide de vignettes
       - Tester les listes et les adaptateurs
       - Projet : application Dogglers
+
+pour valider ce module veuillez réaliser le lab suivant :
+- [lab-mise-en-page](https://github.com/labs-mobile/lab-mise-en-page)
 
 ## Module 3 : Navigation
 
@@ -49,8 +65,15 @@ https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
     - Créer une mise en page à deux volets
     - Mises en page adaptatives
     - Adopter des mises en page responsives pour votre interface utilisateur
+
+pour valider ce module veuillez réaliser le lab suivant :
+- [lab-navigation](https://github.com/labs-mobile/lab-navigation)
   
+
 ## Module 4 : Se connecter à Internet
+
+https://developer.android.com/courses/android-basics-kotlin/unit-4?hl=fr
+
 - Coroutines
   - Présentation des coroutines
 - Récupérer des données sur Internet
@@ -59,11 +82,30 @@ https://developer.android.com/courses/android-basics-kotlin/unit-3?hl=fr
   - Charger et afficher des images depuis Internet
   - Déboguer avec des points d'arrêt
   - Projet : application Amphibians
+
+pour valider ce module veuillez réaliser le lab suivant :
+- [lab-se-connecter-internet](https://github.com/labs-mobile/lab-se-connecter-internet)
+
+
 ## Module 5 : Persistance des données
+
+https://developer.android.com/courses/android-basics-kotlin/unit-5?hl=fr
+
 - Présentation de SQL, Room et Flow
 - Utiliser Room pour la persistance des données
+
+pour valider ce module veuillez réaliser le lab suivant :
+- [lab-persistance-donnees](https://github.com/labs-mobile/lab-persistance-donnees)
+
+
 ## Module 6 : WorkManager
+
+https://developer.android.com/courses/android-basics-kotlin/unit-6?hl=fr
+
 - Planifier des tâches avec WorkManager
+
+pour valider ce module veuillez réaliser le lab suivant :
+- [lab-workmanager](https://github.com/labs-mobile/lab-workmanager)
 
 
 ## Références 
