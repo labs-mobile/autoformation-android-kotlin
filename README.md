@@ -2,6 +2,10 @@
 
 - https://developer.android.com/courses/android-basics-kotlin/course?hl=fr
 
+## Conditions préalables
+
+- Installation d'un post développeur
+  
 ## Travail à faire 
 
 - [Suivez l'autoformation](https://developer.android.com/courses/android-basics-kotlin/course?hl=fr)
@@ -76,6 +80,7 @@ https://developer.android.com/courses/android-basics-kotlin/unit-4?hl=fr
 
 - Coroutines
   - Présentation des coroutines
+  - thread 
 - Récupérer des données sur Internet
   - Présentation de HTTP/REST
   - Récupérer des données sur Internet
@@ -111,3 +116,4 @@ pour valider ce module veuillez réaliser le lab suivant :
 ## Références 
 - [Android Fundamentals in Kotlin Solution Apps](https://github.com/google-developer-training/android-kotlin-fundamentals-apps)
 - [Android Architecture Components samples](https://github.com/android/architecture-components-samples)
+- [Kotlin Playground](https://developer.android.com/training/kotlinplayground)
