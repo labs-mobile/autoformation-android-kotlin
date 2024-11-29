@@ -20,8 +20,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
 import com.example.android.marsphotos.databinding.FragmentOverviewBinding
 
 /**
@@ -31,15 +33,13 @@ class OverviewFragment : Fragment() {
 
     private val viewModel: OverviewViewModel by viewModels()
 
-    /**
-     * Inflates the layout with Data Binding, sets its lifecycle owner to the OverviewFragment
-     * to enable Data Binding to observe LiveData, and sets up the RecyclerView with an adapter.
-     */
+
+    private lateinit var binding : FragmentOverviewBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentOverviewBinding.inflate(inflater)
+        binding = FragmentOverviewBinding.inflate(inflater)
 
         // Allows Data Binding to Observe LiveData with the lifecycle of this Fragment
         binding.lifecycleOwner = this
@@ -47,6 +47,24 @@ class OverviewFragment : Fragment() {
         // Giving the binding access to the OverviewViewModel
         binding.viewModel = viewModel
 
+
+
         return binding.root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        this.viewModel.status.observe(viewLifecycleOwner, Observer {
+            Toast.makeText(view.context, "observe Status", Toast.LENGTH_SHORT).show()
+        })
+        binding.button.setOnClickListener(View.OnClickListener {
+            binding.textView.text = "Button Click"
+            this.viewModel.getMarsPhotos()
+            Toast.makeText(view.context, "Button Click", Toast.LENGTH_SHORT).show()
+
+        })
+
+    }
+
 }
